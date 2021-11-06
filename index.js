@@ -7,9 +7,41 @@ let fee = {
   discord: 9.99,
   forbes: 65,
   insider: 12.99,
+  hbomax: 14.99,
+  disney: 7.99,
+  hulu: 65,
+  sling: 35,
+  peacock: 4.99,
+  fubotv: 65,
+  crackle: 4.99,
+  espn: 6.99,
+  paramountplus: 10,
+  appletvplus:4.99,
 }
+//Initializing the variables
 let totalprice = 0
 let checkboxyoutube = document.querySelector("input[name=youtube]");
+let checkboxnetflix = document.querySelector("input[name=netflix]");
+let githubcheck = document.querySelector("input[name=github]");
+let discordcheck = document.querySelector("input[name=discord]");
+let primecheck = document.querySelector("input[name=prime]");
+let forbescheck = document.querySelector("input[name=forbes]");
+let insidercheck = document.querySelector("input[name=insider]");
+let hbomaxcheck = document.querySelector("input[name=hbo-max]");
+let spotifycheck = document.querySelector("input[name=spotify]");
+let disneycheck = document.querySelector("input[name=disney]");
+let hulucheck = document.querySelector("input[name=hulu]");
+let slingcheck = document.querySelector("input[name=sling]");
+let peacockcheck = document.querySelector("input[name=peacock]");
+let fubotvcheck = document.querySelector("input[name=fubotv]");
+let cracklecheck = document.querySelector("input[name=crackle]");
+let espncheck = document.querySelector("input[name=espn]");
+let paramountpluscheck = document.querySelector("input[name=paramountplus]");
+let appletvpluscheck = document.querySelector("input[name=appletvplus]");
+let finalprice = document.getElementById("finalprice");
+let result = document.getElementById("result");
+
+
 checkboxyoutube.addEventListener('click', function () {
   if (this.checked) {
     totalprice = totalprice + fee.youtube
@@ -17,7 +49,6 @@ checkboxyoutube.addEventListener('click', function () {
     totalprice = totalprice - fee.youtube
   }
 });
-let checkboxnetflix = document.querySelector("input[name=netflix]");
 checkboxnetflix.addEventListener('click', function () {
   if (this.checked) {
     totalprice = totalprice + fee.netflix
@@ -26,7 +57,6 @@ checkboxnetflix.addEventListener('click', function () {
   }
 }
 );
-let githubcheck = document.querySelector("input[name=github]");
 githubcheck.addEventListener('click', function () {
   if (this.checked) {
     totalprice = totalprice + fee.github
@@ -35,7 +65,6 @@ githubcheck.addEventListener('click', function () {
   }
 }
 );
-let discordcheck = document.querySelector("input[name=discord]");
 discordcheck.addEventListener('click', function () {
   if (this.checked) {
     totalprice = totalprice + fee.discord
@@ -44,7 +73,6 @@ discordcheck.addEventListener('click', function () {
   }
 }
 );
-let primecheck = document.querySelector("input[name=prime]");
 primecheck.addEventListener('click', function () {
   if (this.checked) {
     totalprice = totalprice + fee.prime
@@ -53,7 +81,6 @@ primecheck.addEventListener('click', function () {
   }
 }
 );
-let forbescheck = document.querySelector("input[name=forbes]");
 forbescheck.addEventListener('click', function () {
   if (this.checked) {
     totalprice = totalprice + fee.forbes
@@ -62,7 +89,6 @@ forbescheck.addEventListener('click', function () {
   }
 }
 );
-let insidercheck = document.querySelector("input[name=insider]");
 insidercheck.addEventListener('click', function () {
   if (this.checked) {
     totalprice = totalprice + fee.insider
@@ -71,11 +97,105 @@ insidercheck.addEventListener('click', function () {
   }
 }
 );
+hbomaxcheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.hbomax
+  } else {
+    totalprice = totalprice - fee.hbomax
+  }
+}
+);
+spotifycheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.spotify
+  } else {
+    totalprice = totalprice - fee.spotify
+  }
+}
+);
+disneycheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.disney
+  } else {
+    totalprice = totalprice - fee.disney
+  }
+}
+);
+hulucheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.hulu
+  } else {
+    totalprice = totalprice - fee.hulu
+  }
+}
+);
+slingcheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.sling
+  } else {
+    totalprice = totalprice - fee.sling
+  }
+}
+);
+peacockcheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.peacock
+  } else {
+    totalprice = totalprice - fee.peacock
+  }
+}
+);
+fubotvcheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.fubotv
+  } else {
+    totalprice = totalprice - fee.fubotv
+  }
+}
+);
+cracklecheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.crackle
+  } else {
+    totalprice = totalprice - fee.crackle
+  }
+}
+);
+espncheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.espn
+  } else {
+    totalprice = totalprice - fee.espn
+  }
+}
+);
+paramountpluscheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.paramountplus
+  } else {
+    totalprice = totalprice - fee.paramountplus
+  }
+}
+);
+appletvpluscheck.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.appletvplus
+  } else {
+    totalprice = totalprice - fee.appletvplus
+  }
+}
+);
+
+
+
+
+
+
 //Check the final price
-let finalprice = document.getElementById("finalprice");
-let result = document.getElementById("result");
+
 finalprice.addEventListener('click', function () {
   let totalround = Math.round(totalprice * 100) / 100
   result.innerHTML = `Your final price is $ ${totalround}`
 }
 );
+

@@ -54,6 +54,218 @@ img{
     transition: all 0.4s ease;
 
 }
+.hbo-max{
+    padding: 4px 0px;
+}
+#hbomaxcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.disney{
+    pad: 4px 0px;
+}
+#disneycheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.hulu{
+    padding: 4px 0px;
+}
+#hulucheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.sling{
+    padding: 4px 0px;
+}
+#slingcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.peacock{
+    padding: 4px 0px;
+}
+#peacockcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.fubotv{
+    padding: 4px 0px;
+}
+#fubotvcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.crackle{
+    padding: 4px 0px;
+}
+#cracklecheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.espn{
+    padding: 4px 0px;
+}
+#espncheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.paramountplus{
+    padding: 4px 0px;
+}
+#paramountpluscheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.appletvplus{
+    padding: 4px 0px;
+}
+#appletvpluscheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+
+
+
 .spotify{
   padding: 4px 0px;
 }
@@ -175,7 +387,6 @@ img{
     transition: all 0.4s ease;
 }
 #finalprice{
-    /* Style the button */
     border-radius: 5px;
     background-color: #f4511e;
     border: none;
