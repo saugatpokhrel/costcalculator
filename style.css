@@ -1,0 +1,213 @@
+body{
+    background-color: #f2f2f2;
+    
+}
+#intro{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+    width: 7vh;
+}
+.youtube{
+  padding: 4px 0px;
+}
+#youtubecheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.netflix{
+  padding: 4px 0px;
+}
+#netflixcheck{
+    /* Style the check box */
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.spotify{
+  padding: 4px 0px;
+}
+#spotifycheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.prime{
+    padding: 4px 0px;
+}
+#primecheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.github{
+    padding: 4px 0px;
+}
+#githubcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.discord{
+    padding: 4px 0px;
+}
+#discordcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.forbes{
+    padding: 4px 0px;
+}
+#forbescheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.insider{
+    padding: 4px 0px;
+}
+#insidercheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+#finalprice{
+    /* Style the button */
+    border-radius: 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+#finalprice:hover {
+    background-color: #ffffff;
+    color: #f4511e;
+}
+#finalprice:active {
+    background-color: #f4511e;
+    color: #FFFFFF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#finalprice:focus {
+    outline: none;
+}
+#result{
+    font-size: 20px;
+    padding: 10px;
+    width: auto;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+}
