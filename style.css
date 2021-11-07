@@ -40,7 +40,6 @@ checkbox{
   padding: 4px 0px;
 }
 #netflixcheck{
-    /* Style the check box */
     position: relative;
     display: inline-block;
     width: 60px;
@@ -351,6 +350,27 @@ checkbox{
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+.googlecloud{
+    padding: 4px 0px;
+}
+#googlecloudcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
 .discord{
     padding: 4px 0px;
 }
@@ -411,6 +431,267 @@ checkbox{
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
+.expressvpn{
+    padding: 4px 0px;
+}
+#expressvpncheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.xboxcloud{
+    padding: 4px 0px;
+}
+#xboxcloudcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.geforce{
+    padding: 4px 0px;
+}
+#geforcecheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.shadow{
+    padding: 4px 0px;
+}
+#shadowcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.vortex{
+    padding: 4px 0px;
+}
+#vortexcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+
+}
+.psnow{
+    padding: 4px 0px;
+}
+#psnowcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.boosteroid{
+    padding: 4px 0px;
+}
+#boosteroidcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.dropbox{
+    padding: 4px 0px;
+}
+#dropboxcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.nordvpn{
+    padding: 4px 0px;
+}
+#nordvpncheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.surfshark{
+    padding: 4px 0px;
+}
+#surfsharkcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.protonvpn{
+    padding: 4px 0px;
+}
+#protonvpncheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.cyberghost{
+    padding: 4px 0px;
+}
+#cyberghostcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.ipvanish{
+    padding: 4px 0px;
+}
+#ipvanishcheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
 #finalprice{
     border-radius: 5px;
     background-color: #f4511e;
@@ -423,7 +704,26 @@ checkbox{
     transition: all 0.5s;
     cursor: pointer;
     margin: 5px;
-    
+}
+.canva{
+    padding: 4px 0px;
+}
+#canvacheck{
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 #finalprice:hover {
     background-color: #ffffff;
