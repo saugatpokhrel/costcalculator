@@ -3,6 +3,7 @@ let fee = {
   netflix: 9.99,
   spotify: 9.99,
   prime: 14.99,
+  microsoft365: 9.99,
   github: 4,
   discord: 9.99,
   forbes: 65,
@@ -22,6 +23,7 @@ let fee = {
 let totalprice = 0
 let checkboxyoutube = document.querySelector("input[name=youtube]");
 let checkboxnetflix = document.querySelector("input[name=netflix]");
+let microsoft365checkbox = document.querySelector("input[name=microsoft365]");
 let githubcheck = document.querySelector("input[name=github]");
 let discordcheck = document.querySelector("input[name=discord]");
 let primecheck = document.querySelector("input[name=prime]");
@@ -185,7 +187,14 @@ appletvpluscheck.addEventListener('click', function () {
   }
 }
 );
-
+microsoft365checkbox.addEventListener('click', function () {
+  if (this.checked) {
+    totalprice = totalprice + fee.microsoft365
+  } else {
+totalprice = totalprice - fee.microsoft365
+  }
+}
+);
 
 
 
